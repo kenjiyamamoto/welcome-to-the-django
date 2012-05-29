@@ -2,12 +2,8 @@
     border: 0;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
-
-/* FONT */
-/*font-family: 'Dynalight', cursive;*/
-/*font-family: 'Questrial', sans-serif;*/
-
 
 body {
     background: #f1ffed;
@@ -23,26 +19,34 @@ header > img {
 }
 
 header > p {
-    font-family: 'Questrial', cursive;
     font-size: 17px;
-    font-weight: lighter;
+    font-weight: 400; 
     float: right;
     line-height: 108px  ;
 }
 
 .principal {
     clear: both;
-    padding: 50px 0 0 0;
+    padding: 15% 0 0 0;
 }
 
 .principal p {
-    font-family: 'Questrial', cursive;
-    font-weight: lighter;
-    font-size: 15px;
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 50px;
+    color: #7F19B4;
+    letter-spacing: -5px;
+    width: 770px;
+    text-align: center;
+    margin: 0 auto;
 }
 .principal strong {
-    font-family: 'Questrial', cursive;
-    font-size: 15px;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    margin: 10px 0;
 }
 
 
@@ -50,7 +54,6 @@ header > p {
 footer {
     background: #333;
     color: #FFF;
-    font-family: 'Questrial', cursive;
     font-weight: lighter;
     font-size: 10px;
     padding: 10px;
