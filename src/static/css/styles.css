@@ -25,6 +25,46 @@ header > img {
 header > p {
     font-family: 'Questrial', cursive;
     font-size: 17px;
+    font-weight: lighter;
     float: right;
     line-height: 108px  ;
 }
+
+.principal {
+    clear: both;
+    padding: 50px 0 0 0;
+}
+
+.principal p {
+    font-family: 'Questrial', cursive;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.principal strong {
+    font-family: 'Questrial', cursive;
+    font-size: 15px;
+}
+
+
+
+footer {
+    background: #333;
+    color: #FFF;
+    font-family: 'Questrial', cursive;
+    font-weight: lighter;
+    font-size: 10px;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: right;
+    width: 100%;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
